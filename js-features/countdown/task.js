@@ -10,3 +10,4 @@ const startTimer = function() {
 } 
 
 setInterval(startTimer, 1000);
+

@@ -6,7 +6,7 @@ let smallsize = 150;
 
 function changeSizes() {
   
-  if(image.width == big) {
+  if(image.width == bigsize) {
     image.width = smallsize;
   } else {
     image.width = bigsize;
@@ -14,4 +14,4 @@ function changeSizes() {
 
 }
 
-image.onclick = changeSizes(image);
+image.onclick = changeSizes();
